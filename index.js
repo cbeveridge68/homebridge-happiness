@@ -20,7 +20,7 @@ module.exports = function (homebridge) {
     Service = homebridge.hap.Service;
     Characteristic = homebridge.hap.Characteristic;
     homebridge.registerAccessory(
-                "homebridge-thingspeak",  // PluginName
+                "homebridge-happiness",  // PluginName
                 "Httpthingspeak",      // accessoryName
                 Httpthingspeak         // constructor
     );
